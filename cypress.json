@@ -1,0 +1,21 @@
+{
+    "chromeSecurity":false,
+    "viewportWidth": 1400,
+    "viewportHeight": 900,
+    "retries":{
+        "runMode": 2,
+        "openMode": 1
+    },
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/reports/mocha",
+            "quite": true,
+            "overwrite": false,
+            "html": true,
+            "json": true
+        }
+    }
+
+}
